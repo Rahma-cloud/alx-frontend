@@ -153,7 +153,7 @@ html {
 
 .nav-link {
     display: block;
-    padding: 0.8rem var(--font-size-medium);
+    padding: 50% var(--font-size-medium);
 }
 
 .nav-link:hover {
