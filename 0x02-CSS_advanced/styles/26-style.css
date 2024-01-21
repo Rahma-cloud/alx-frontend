@@ -237,8 +237,17 @@ ul.row {
     fill: var(--text-color);
 }
 
+.card-category {
+    color: var(--color-primary);
+}
+  
 .card-services .card-title {
     margin: 0;
+}
+  
+
+.card-testiomonial {
+    text-align: center;
 }
 
 .card-services a {
@@ -251,10 +260,6 @@ ul.row {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
-}
-
-.card-testiomonial {
-    text-align: center;
 }
 
 .card-testiomonial .card-avatar {
