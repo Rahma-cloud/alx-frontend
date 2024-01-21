@@ -17,7 +17,6 @@
   
 body {
     font-family: var(--font-family-base);
-    color: var(--text-color);
     font-size: var(--font-size-medium);
 }
   
@@ -30,7 +29,7 @@ h6 {
     font-family: var(--font-family-title);
 }
   
-a {
+body a {
     color: var(--text-color);
 }
   
@@ -40,5 +39,6 @@ a {
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
