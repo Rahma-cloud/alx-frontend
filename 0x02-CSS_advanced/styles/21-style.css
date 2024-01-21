@@ -200,3 +200,8 @@ ul.row {
     float: left !important;
     padding: 0.5rem !important;
 }
+
+.col-1-3 .col-1-2 {
+    float: none;
+    padding: 0;
+}
