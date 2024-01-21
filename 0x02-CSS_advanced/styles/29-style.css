@@ -36,7 +36,7 @@
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-primary);
+    --nav-item-link-hover: var(--color-white);
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
@@ -172,7 +172,7 @@
   .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
   }
-
+  
   .nav .nav-link::before {
     content: "";
     position: absolute;
@@ -180,14 +180,14 @@
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%rem;
+    height: 0.2rem;
   }
-
+  
   .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
   }
-
+  
   .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -305,26 +305,26 @@
   .section-hero {
     background-size: 90rem auto;
   }
-
+  
   .section-hero .section-title {
     margin-bottom: 5rem;
   }
-
+  
   .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
   }
-
-  .header {
-    padding: var(--header-padding);
-  }
-
+  
   .header-logo {
     position: var(--header-logo-position);
   }
-
+  
   .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left)
+    left: var(--header-logo-link-left);
+  }
+  
+  .header {
+    padding: var(--header-padding);
   }
