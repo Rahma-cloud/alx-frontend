@@ -95,7 +95,7 @@ a:active {
 .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--color-primary);
+    background-color: var(--button-hover-background);
 }
 
 .section {
@@ -222,7 +222,7 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
-    --button-color: var(var(--color-white))
+    --button-color: var(--color-white)
 }
 
 .footer-address {
